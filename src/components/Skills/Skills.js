@@ -18,7 +18,7 @@ const SkillsContainer = styled.div`
     flex-wrap: wrap;
   }
   @media (max-width: 791px) {
-    height: 34vh;
+    height: 100vh;
   }
 `;
 

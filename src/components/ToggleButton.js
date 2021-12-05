@@ -8,7 +8,7 @@ const Button = styled.button`
   font-size: 1em;
   color: white;
   position: relative;
-  bottom: 77px;
+  bottom: 95px;
   left: 100px;
   cursor: pointer;
 
@@ -19,19 +19,19 @@ const Button = styled.button`
 
   @media (max-width: 500px) {
     font-size: 0.7em;
-    bottom: 77px;
-    left: 101px;
+    bottom: 126px;
+    left: 52px;
   }
 
   @media (max-width: 400px) {
     font-size: 0.5em;
-    bottom: 60px;
-    left: 65px;
+    bottom: 127px;
+    left: 47px;
   }
   @media (max-width: 340px) {
     width: 24vw;
     font-size: 1em;
-    left: 65px;
+    left: 17px;
   }
 
   :hover {

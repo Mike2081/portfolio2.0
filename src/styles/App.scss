@@ -103,26 +103,25 @@
         display: inline-grid;
       }
       &__chest {
-        height: 38vh;
         width: 25vw;
-        border: solid 8px;
-        border-radius: 12px;
-        border-color: rgb(54, 61, 103);
-        margin: 0.5rem;
         &__demo1 {
-          height: 38vh;
+          border: solid 8px;
+          border-radius: 12px;
+          border-color: rgb(54, 61, 103);
+          margin: 0.5rem;
+          height: 10rem;
           width: 25vw;
-          opacity: 0.6;
-          @media (max-width: 900px) {
-            height: 27vh;
-          }
-          @media (max-width: 630px) {
-            height: 22vh;
-          }
-          @media (max-width: 500px) {
-            height: auto;
-            width: 207%;
-          }
+
+          // @media (max-width: 900px) {
+
+          // @media (max-width: 630px) {
+          //   height: 28vh;
+          // } height: 22vh;
+          // }
+          // @media (max-width: 500px) {
+          //   height: auto;
+          //   width: 207%;
+          // }
         }
         &__info1 {
           background: rgb(54, 61, 103);
@@ -167,14 +166,17 @@
         color: black;
         font-family: "Ubuntu Condensed", sans-serif;
         font-size: 1.4rem;
+        border: 0rem;
+        margin: 0px 26px 0px 0px;
         @media (max-width: 429px) {
           font-size: 0.9rem;
+        }
+        @media (max-width: 400px) {
+          margin: 0px 0px 0px 0px;
         }
         @media (max-width: 360px) {
           font-size: 0.8rem;
         }
-        border: 0rem;
-        margin: 0px 26px 0px 0px;
         @media (max-width: 326px) {
           margin: 0px 7px 0px 0px;
         }
@@ -659,11 +661,8 @@
   }
   &__face {
     height: auto;
-    width: 13rem;
+    width: 9rem;
     margin: 4% 0% 0% 6%;
-    @media (max-width: 950px) {
-      width: 11rem;
-    }
     @media (max-width: 950px) {
       width: 9rem;
     }

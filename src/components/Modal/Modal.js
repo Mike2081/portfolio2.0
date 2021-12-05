@@ -1,5 +1,6 @@
 import React, { useRef } from "react";
 import styled from "styled-components";
+import * as FaIcons from "react-icons/fa";
 import useOnClickOutside from "./useOnClickOutside";
 
 const Container = styled.div`
@@ -33,7 +34,7 @@ const Modal = ({ hide, modalvideo, modalTitle, modalDescription }) => {
       <Container2>
         <div className="stockVidSection">
           <CloseButton className="stockVidSection__offClick2" onClick={hide}>
-            X
+            <FaIcons.FaTimes/>
           </CloseButton>
           <video
             src={modalvideo}

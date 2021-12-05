@@ -156,37 +156,16 @@
 }
 
 .App__projects__case__chest {
-  height: 38vh;
   width: 25vw;
+}
+
+.App__projects__case__chest__demo1 {
   border: solid 8px;
   border-radius: 12px;
   border-color: #363d67;
   margin: 0.5rem;
-}
-
-.App__projects__case__chest__demo1 {
-  height: 38vh;
+  height: 10rem;
   width: 25vw;
-  opacity: 0.6;
-}
-
-@media (max-width: 900px) {
-  .App__projects__case__chest__demo1 {
-    height: 27vh;
-  }
-}
-
-@media (max-width: 630px) {
-  .App__projects__case__chest__demo1 {
-    height: 22vh;
-  }
-}
-
-@media (max-width: 500px) {
-  .App__projects__case__chest__demo1 {
-    height: auto;
-    width: 207%;
-  }
 }
 
 .App__projects__case__chest__info1 {
@@ -261,6 +240,12 @@
 @media (max-width: 429px) {
   .App__nav__box__switch {
     font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .App__nav__box__switch {
+    margin: 0px 0px 0px 0px;
   }
 }
 
@@ -998,14 +983,8 @@
 
 .profileSec__face {
   height: auto;
-  width: 13rem;
+  width: 9rem;
   margin: 4% 0% 0% 6%;
-}
-
-@media (max-width: 950px) {
-  .profileSec__face {
-    width: 11rem;
-  }
 }
 
 @media (max-width: 950px) {
