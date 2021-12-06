@@ -415,49 +415,13 @@
   position: fixed;
 }
 
-.stockVidSection {
-  height: auto;
-  width: 68%;
-}
-
-@media (max-width: 500px) {
-  .stockVidSection {
-    width: 142%;
-  }
-}
-
-.stockVidSection__offClick2 {
-  height: 3vh;
-  border: 0px;
-  font-size: 2em;
-  color: gainsboro;
-  vertical-align: top;
-}
-
-.stockVidSection__stockDemo {
-  height: auto;
-  width: 95%;
-  margin: 4% 0% 0% 4%;
-}
-
-@media (max-height: 360px) {
-  .stockVidSection__stockDemo {
-    width: 70%;
-  }
-}
-
-@media (max-height: 510px) {
-  .stockVidSection__stockDemo {
-    width: 70%;
-  }
-}
-
 .SumSection {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  height: 16rem;
 }
 
 .SumSection__stockTitle {
@@ -977,6 +941,7 @@
   border: 0px;
   font-size: 2em;
   color: #363d67;
+  background-color: white;
   vertical-align: top;
   margin: 1%;
 }

@@ -288,33 +288,34 @@
 }
 
 .stockVidSection {
-  height: auto;
-  width: 68%;
-  @media (max-width: 500px) {
-    width: 142%;
-  }
-  &__offClick2 {
-    height: 3vh;
-    border: 0px;
-    font-size: 2em;
-    color: gainsboro;
-    vertical-align: top;
-  }
-  &__stockDemo {
-    height: auto;
-    width: 95%;
-    margin: 4% 0% 0% 4%;
-    @media (max-height: 360px) {
-      width: 70%;
-    }
-    @media (max-height: 510px) {
-      width: 70%;
-    }
-  }
+  // height: auto;
+  // width: 68%;
+  // @media (max-width: 500px) {
+  //   width: 142%;
+  // }
+  // &__offClick2 { (for the X button styling)
+  //   height: 3vh;
+  //   border: 0px;
+  //   font-size: 2em;
+  //   color: gainsboro;
+  //   vertical-align: top;
+  // }
+  // &__stockDemo {
+  //   height: auto;
+  //   width: 95%;
+  //   margin: 4% 0% 0% 4%;
+  //   @media (max-height: 360px) {
+  //     width: 70%;
+  //   }
+  //   @media (max-height: 510px) {
+  //     width: 70%;
+  //   }
+  // }
 }
 .SumSection {
   display: flex;
   flex-wrap: wrap;
+  height: 16rem;
   &__stockTitle {
     font-family: "Open Sans", sans-serif;
     color: #505050;
@@ -656,6 +657,7 @@
     border: 0px;
     font-size: 2em;
     color: rgb(54, 61, 103);
+    background-color: white;
     vertical-align: top;
     margin: 1%;
   }

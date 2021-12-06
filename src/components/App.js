@@ -66,13 +66,17 @@ const App = () => {
         <SubHeader>Projects</SubHeader>
         <div className="App__projects__case">
           {ModalList.map(
-            ({ buttonImage, modalvideo, modalTitle, modalDescription }) => (
+            ({ buttonImage, modalvideo, modalTitle, technologies1, technologies2, technologies3, technologies4, modalDescription }) => (
               <ToggleButton key={modalTitle} buttonImage={buttonImage}>
                 {hide => (
                   <Modal
                     hide={hide}
                     modalvideo={modalvideo}
                     modalTitle={modalTitle}
+                    technologies1={technologies1}
+                    technologies2={technologies2}
+                    technologies3={technologies3}
+                    technologies4={technologies4}
                     modalDescription={modalDescription}
                   />
                 )}
