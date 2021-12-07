@@ -644,6 +644,9 @@
   @media (max-width: 600px) {
     right: 93px;
   }
+  @media (max-height: 390px) {
+    bottom: 74px;
+  }
 }
 .off6 {
   opacity: 0;
@@ -671,9 +674,13 @@
     @media (max-width: 320px) {
       width: 7rem;
     }
-    // @media (max-height: 510px) {
-    //   width: 70%;
-    // }
+    @media (max-height: 390px) {
+      width: 7rem;
+    }
+    @media (max-height: 300px) {
+      width: 6rem;
+      margin: 4% 0% 0% 43%;
+    }
   }
 }
 .contactSec {
@@ -750,8 +757,9 @@
     @media (max-width: 650px) {
       margin: 3rem 0rem 0rem 3rem;
     }
-    @media (max-width: 498px) {
+    @media (max-width: 499px) {
       display: grid;
+      margin: -1rem 0rem 0rem 3rem;
     }
     justify-content: space-evenly;
     &__sLogo {

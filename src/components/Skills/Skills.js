@@ -20,6 +20,12 @@ const SkillsContainer = styled.div`
   @media (max-width: 791px) {
     height: 100vh;
   }
+  @media (max-height: 419px) {
+    height: 221vh;
+  }
+  @media (max-width: 455px) {
+    height: 221vh;
+  }
 `;
 
 const Skill = styled.div`

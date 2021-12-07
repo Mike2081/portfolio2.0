@@ -33,6 +33,12 @@ const Button = styled.button`
     font-size: 1em;
     left: 17px;
   }
+  @media (max-height: 470px) {
+    font-size: 0.7em;
+  }  
+  @media (max-width: 640px) {
+    font-size: 0.7em;
+  }  
 
   :hover {
     -webkit-transition: 0.5s ease;

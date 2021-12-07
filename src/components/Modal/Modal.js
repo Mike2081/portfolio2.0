@@ -16,6 +16,17 @@ const Container = styled.div`
   display: flex;
   box-shadow: 30px 30px 7px rgba(0, 0, 0, 0.5);
   z-index: 1000000;
+  @media (max-width: 670px) {
+    right:55px;
+  }
+  @media (max-height: 515px) {
+    bottom: 29px;
+    right: 39px;
+  }  
+  @media (max-width: 515px) {
+    bottom: 29px;
+    right: 39px;
+  }  
 `;
 
 const CloseButton = styled.button`
@@ -32,36 +43,75 @@ const Container2 = styled.div`
 
 const Container3 = styled.div`
   display: flex;
+  height: 15rem;
+  width: auto;
+  @media (max-height: 513px) {
+    height: 11rem;
+  }
+  @media (max-height: 431px) {
+    height: 7rem;
+  }
+  @media (max-height: 334px) {
+    height: 5rem;
+  }
 `;
 
 const Movie = styled.video`
   height: auto;
   width: 52%;
-  margin: 2rem 0rem 0rem 1.5rem;
-  border: solid 9px;
-  border-color: #363d67;
-  border-radius: 12px;
+  margin: 0rem 0rem 0rem 1.5rem;
+  @media (max-width: 1030px) {
+    height: -3rem;
+  }
 `;
 
 const TitleBox = styled.div`
-  margin: 0rem 0rem 0rem 1.5rem;
+  margin: -2rem 0rem 0rem 1.5rem;
   font-family: "Ubuntu Condensed",sans-serif;
+  @media (max-height: 334px) {
+    margin: -4rem 0rem 0rem 1.5rem;
+  }
 `;
 
 const Title = styled.h1`
-
-`;
-
-const Description = styled.div`
-  font-size: 1.6rem;
-  height: auto;
-  width: 51rem;
-  margin: 1rem 0rem 0rem 7rem;
-  font-family: "Ubuntu Condensed",sans-serif;
+  font-size: 2rem;
+  text-decoration-line: underline;
+  @media (max-width: 535px) {
+    font-size: 1rem;
+  }
+  @media (max-height: 535px) {
+    font-size: 1rem;
+  }  
 `;
 
 const Tech = styled.div`
+  font-size: 1.5rem;
+  @media (max-width: 535px) {
+    font-size: 0.7rem;
+  }  
+  @media (max-height: 535px) {
+    font-size: 0.7rem;
+  }  
+`;
 
+const Description = styled.div`
+  font-size: 1.3rem;
+  margin: 3rem 0rem 0rem 7rem;
+  font-family: "Ubuntu Condensed",sans-serif;
+  @media (max-width: 800px) {
+    margin: 1rem 0rem 0rem 1rem;
+    font-size: 1rem;
+  }
+  @media (max-height: 631px) {
+    font-size: 0.8rem;
+  }
+  @media (max-height: 570px) {
+    font-size: 0.6rem;
+  }
+  @media (max-height: 288px) {
+    font-size: 0.6rem;
+    margin: 0rem 0rem 0rem 1rem;
+  }
 `;
 
 const TechTitle = styled.h2`
@@ -69,8 +119,20 @@ const TechTitle = styled.h2`
 `;
 
 const TechLogo = styled.img`
-  height: 5rem;
+  height: 4rem;
   margin: 9px;
+  @media (max-width: 1030px) {
+    height: 3rem;
+  }
+  @media (max-width: 850px) {
+    height: 2rem;
+  }
+  @media (max-width: 670px) {
+    height: 1.5rem;
+  }
+  @media (max-height: 431px) {
+    height: 0.6rem;
+  }
 `;
 
 const Site = styled.button`
@@ -82,10 +144,19 @@ const Site = styled.button`
   font-size: 1.6rem;
   background: aqua;
   font-family: "Ubuntu Condensed",sans-serif;
+  @media (max-width: 535px) {
+    height: 2.5rem;
+    width: 6rem;
+    font-size: 1rem;
+  }
+  @media (max-height: 431px) {
+    height: 2rem;
+    font-size: 0.9rem;
+  }
 `;
 
 
-const Modal = ({ hide, modalvideo, modalTitle, technologies1, technologies2, technologies3, technologies4, modalDescription }) => {
+const Modal = ({ hide, modalvideo, modalTitle, technologies1, technologies2, technologies3, technologies4, modalDescription, site }) => {
   const node = useRef();
   useOnClickOutside(node, hide);
 
@@ -112,7 +183,13 @@ const Modal = ({ hide, modalvideo, modalTitle, technologies1, technologies2, tec
                 <TechLogo src={technologies3}/>
                 <TechLogo src={technologies4}/>
             </Tech>
-            <Site>Try Here!</Site>
+            <a
+              href={site}
+              target="_blank"
+              rel="noreferrer"
+            >
+              <Site>Try Here!</Site>
+            </a>
           </TitleBox>
         </Container3>
           <Description>{modalDescription}</Description>

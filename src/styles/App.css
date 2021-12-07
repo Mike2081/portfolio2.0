@@ -926,6 +926,12 @@
   }
 }
 
+@media (max-height: 390px) {
+  .on6 {
+    bottom: 74px;
+  }
+}
+
 .off6 {
   opacity: 0;
   position: fixed;
@@ -961,6 +967,19 @@
 @media (max-width: 320px) {
   .profileSec__face {
     width: 7rem;
+  }
+}
+
+@media (max-height: 390px) {
+  .profileSec__face {
+    width: 7rem;
+  }
+}
+
+@media (max-height: 300px) {
+  .profileSec__face {
+    width: 6rem;
+    margin: 4% 0% 0% 43%;
   }
 }
 
@@ -1090,10 +1109,11 @@
   }
 }
 
-@media (max-width: 498px) {
+@media (max-width: 499px) {
   .contactSec__sButtons {
     display: -ms-grid;
     display: grid;
+    margin: -1rem 0rem 0rem 3rem;
   }
 }
 

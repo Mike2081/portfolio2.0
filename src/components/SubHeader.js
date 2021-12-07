@@ -6,7 +6,7 @@ const SubHeader = styled.h2`
   width: max-content;
   font-size: 3em;
   height: 10vh;
-  border-bottom: 5px solid black;
+  text-decoration: underline;
   margin: 0 auto;
 
   @media (max-width: 792px) {
