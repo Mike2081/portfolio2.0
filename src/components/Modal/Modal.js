@@ -85,7 +85,7 @@ const Title = styled.h1`
 `;
 
 const Tech = styled.div`
-  font-size: 1.5rem;
+  font-size: 1rem;
   @media (max-width: 535px) {
     font-size: 0.7rem;
   }  
@@ -96,7 +96,7 @@ const Tech = styled.div`
 
 const Description = styled.div`
   font-size: 1.3rem;
-  margin: 3rem 0rem 0rem 7rem;
+  margin: 1rem 0rem 0rem 7rem;
   font-family: "Ubuntu Condensed",sans-serif;
   @media (max-width: 800px) {
     margin: 1rem 0rem 0rem 1rem;
@@ -106,7 +106,7 @@ const Description = styled.div`
     font-size: 0.8rem;
   }
   @media (max-height: 570px) {
-    font-size: 0.6rem;
+    font-size: 1rem;
   }
   @media (max-height: 288px) {
     font-size: 0.6rem;
@@ -156,7 +156,7 @@ const Site = styled.button`
 `;
 
 
-const Modal = ({ hide, modalvideo, modalTitle, technologies1, technologies2, technologies3, technologies4, modalDescription, site }) => {
+const Modal = ({ hide, git, modalvideo, modalTitle, technologies1, technologies2, technologies3, technologies4, modalDescription, site }) => {
   const node = useRef();
   useOnClickOutside(node, hide);
 
@@ -188,7 +188,7 @@ const Modal = ({ hide, modalvideo, modalTitle, technologies1, technologies2, tec
               target="_blank"
               rel="noreferrer"
             >
-              <Site>Try Here!</Site>
+              <Site>{git}</Site>
             </a>
           </TitleBox>
         </Container3>

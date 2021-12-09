@@ -2,13 +2,14 @@
 const modalList = [ 
   {
     buttonImage: require("../../Images/discord.png"),
-    modalvideo: require("../../videos/Typr.mov"),
+    modalvideo: require("../../videos/discord.mov"),
     modalTitle: "Discord Clone",
     technologies1: require("../../Images/firebase.png"),
     technologies2: require("../../Images/React.png"),
     technologies3: require("../../Images/html5.png"),
     technologies4: require("../../Images/sass.png"),
-    site: "https://scratch-paint.netlify.app/",
+    site: "https://michaeldohodiscord.netlify.app/",
+    git: "Try Here!",
     modalDescription: `In this project, I make my own version of the discord chat app. 
     Where you can actually log in and talk to other authenticated users. Front-end using 
     React and for the backend Firebase for the database. I wanted to teach myself more 
@@ -22,6 +23,7 @@ const modalList = [
     technologies3: require("../../Images/html5.png"),
     technologies4: require("../../Images/sass.png"),
     site: "https://scratch-paint.netlify.app/",
+    git: "Try Here!",
     modalDescription: `Scratch-Paint is a hackathon group project. In the hackathon, 
     the challenge was to create a paint app. This project showed me the importance of 
     communication of team goals. Using Jira to make sure everyone is on the same page 
@@ -35,7 +37,8 @@ const modalList = [
     technologies2: require("../../Images/React.png"),
     technologies3: require("../../Images/html5.png"),
     technologies4: require("../../Images/sass.png"),
-    site: "https://scratch-paint.netlify.app/",
+    site: "https://github.com/Mike2081/InStock",
+    git: "Github",
     modalDescription: `InStock is a warehouse site made with my BrainStation classmates. 
     We used React for the front-end and a node js express server for the backend. 
     This project was incredibly valuable. We used a Jira board. Which taught me 
@@ -50,6 +53,7 @@ const modalList = [
     technologies3: require("../../Images/html5.png"),
     technologies4: require("../../Images/sass.png"),
     site: "https://scratch-paint.netlify.app/",
+    git: "Try Here!",
     modalDescription: `Speed-Typr was my first React solo project 
     for the last day of the BrainStations 3 month dev program. On 
     project day I received the most business cards in the class from 

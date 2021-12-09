@@ -16,8 +16,8 @@ export const skillsList = [
     img: require("../../Images/nodejs.png")
   },
   {
-    title: "SASS",
-    img: require("../../Images/sass.png")
+    title: "Styled",
+    img: require("../../Images/styled.png")
   },
   {
     title: "Jira",
@@ -44,7 +44,7 @@ export const skillsList = [
     img: require("../../Images/css3.png")
   },
   {
-    title: "VS Code",
-    img: require("../../Images/visual.png")
+    title: "SASS",
+    img: require("../../Images/sass.png")
   },
 ];
