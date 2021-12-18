@@ -102,7 +102,7 @@ const Description = styled.div`
     margin: 1rem 0rem 0rem 1rem;
     font-size: 1rem;
   }
-  @media (max-height: 631px) {
+  @media (max-height: 600px) {
     font-size: 0.8rem;
   }
   @media (max-height: 570px) {

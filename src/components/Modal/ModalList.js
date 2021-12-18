@@ -52,7 +52,7 @@ const modalList = [
     technologies2: require("../../Images/React.png"),
     technologies3: require("../../Images/html5.png"),
     technologies4: require("../../Images/sass.png"),
-    site: "https://scratch-paint.netlify.app/",
+    site: "https://speed-typr.netlify.app/how-to-play",
     git: "Try Here!",
     modalDescription: `Speed-Typr was my first React solo project 
     for the last day of the BrainStations 3 month dev program. On 
